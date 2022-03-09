@@ -1,5 +1,5 @@
 /**
- * subclass of Animal for Cat
+ * Subclass of Animal for Cat
  */
 public class Cat extends Animal {
 
@@ -8,7 +8,7 @@ public class Cat extends Animal {
      * @return species of the animal
      */
     public String getSpecies() {
-        return "Felis Catus";
+        return "Cat";
     }
 
 

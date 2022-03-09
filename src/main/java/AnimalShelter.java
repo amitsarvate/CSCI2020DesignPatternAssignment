@@ -16,18 +16,14 @@ public class AnimalShelter {
         AnimalFactory animalFactory = new AnimalFactory();
 
         // getting user input from client
-        System.out.println("Enter the type of Animal being admitted into Animal Shelter (D / C)");
+        System.out.println("Enter the type of Animal being admitted into Animal Shelter (Dog / Cat)");
         String animalType = scan.nextLine();
 
         // factory object creating the specific type of animal requested
         Animal newAnimal = animalFactory.makeAnimal(animalType);
 
-        // Outputting the toString method associated with the object (animal) created
+        // outputting the toString method associated with the object (animal) created
         System.out.println(newAnimal);
 
     }
-
-
-
-
 }

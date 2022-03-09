@@ -7,19 +7,19 @@ public class AnimalFactory {
 
     /**
      * method used to created the animal
-     * @param animalType identifier for particular animal
+     * @param animalType
      * @return specific subclass of animal based on parameter given
      */
     public Animal makeAnimal(String animalType) {
 
         if (animalType == null) {
             return null;
-        } else if (animalType.equals("D")) {
+        } else if (animalType.equals("Dog")) {
             return new Dog();
-        } else if (animalType.equals("C")) {
+        } else if (animalType.equals("Cat")) {
             return new Cat();
         }
-
         return null;
+
     }
 }
